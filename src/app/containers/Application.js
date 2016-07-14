@@ -112,8 +112,9 @@ export default class Application extends Component {
           </Nav>
           <Navbar.Collapse style={{ marginRight: 100 }}>
             <Nav pullRight>
-              <NavItem href="./async">Async example</NavItem>
-              <NavItem href="geojson">Geojson</NavItem>
+              <LinkContainer to="/async">
+                <NavItem>Async example</NavItem>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

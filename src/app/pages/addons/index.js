@@ -1,7 +1,9 @@
 import {
-  default as MarkerClusterer,
-} from "./MarkerClusterer";
+  default as MarkerClustererExample,
+} from "./MarkerClustererExample";
 
-MarkerClusterer.__raw = require(`!raw!./MarkerClusterer`);
+MarkerClustererExample.__raw = require(`!raw!./MarkerClustererExample`);
 
-export { MarkerClusterer };
+export {
+  MarkerClustererExample,
+};
