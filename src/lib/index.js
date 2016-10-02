@@ -35,6 +35,10 @@ export {
 } from "./DirectionsRenderer";
 
 export {
+  default as HeatmapLayer,
+} from "./HeatmapLayer";
+
+export {
   default as InfoWindow,
 } from "./InfoWindow";
 
