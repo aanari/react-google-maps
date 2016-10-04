@@ -35,6 +35,7 @@ export const markerControlledPropTypes = {
   shape: PropTypes.any,
   title: PropTypes.string,
   visible: PropTypes.bool,
+  optimized: PropTypes.bool,
   zIndex: PropTypes.number,
 };
 
